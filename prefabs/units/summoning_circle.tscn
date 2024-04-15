@@ -132,6 +132,7 @@ states/trigger/position = Vector2(583, 199)
 transitions = ["Start", "idle", SubResource("AnimationNodeStateMachineTransition_vb8j0"), "idle", "active", SubResource("AnimationNodeStateMachineTransition_v2ew2"), "active", "idle", SubResource("AnimationNodeStateMachineTransition_nl01l"), "active", "trigger", SubResource("AnimationNodeStateMachineTransition_0msv3"), "trigger", "active", SubResource("AnimationNodeStateMachineTransition_rw2xr")]
 
 [node name="SummoningCircle" type="Area3D"]
+input_ray_pickable = false
 script = ExtResource("1_8h8jj")
 brightness = 0.73253
 
